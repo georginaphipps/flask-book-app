@@ -8204,10 +8204,6 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
 }
 
-.bg-gradient {
-  background-image: var(--bs-gradient) !important;
-}
-
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
