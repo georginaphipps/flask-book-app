@@ -20,6 +20,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/books")
+def books():
+    return render_template("books.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
