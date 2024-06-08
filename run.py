@@ -12,17 +12,17 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    return render_template("about.html", page_title="About Betsy's Book Reviews")
 
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html", page_title="Contact Us")
 
 
 @app.route("/books")
 def books():
-    return render_template("books.html")
+    return render_template("books.html", page_title="Latest Books")
 
 
 if __name__ == "__main__":
