@@ -1,3 +1,15 @@
 .col-md-5 img {
     width: 50%;
 }
+
+.send-flowers-regular {
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.goudy-bookletter-1911-regular {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
