@@ -29,6 +29,17 @@ def books():
     return render_template("books.html", page_title="Latest Books", reviews=data)
 
 
+@app.route("/books/<book_name>")
+def books_book(book_name):
+    book = {}
+    with open("data/reviews.json", "r") as json_data:
+        data = json.load(json_data)
+        for obj in data:
+            if obj["url"] == book_name:
+                book = obj
+    return render_template("book-review.html", book=book)
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),

@@ -11,7 +11,7 @@
             {% if loop.index % 2 != 0 %}
 
                 <div class="col-md-7">
-                    <h3>{{ loop.index }}. {{ book.name }}</h3>
+                    <h3><a href="/books/{{ book.url }}">{{ loop.index }}. {{ book.name }}</a></h3>
                     <p>{{ book.description }}</p>
                 </div>
                 <div class="col-md-5">
@@ -23,8 +23,8 @@
                 <div class="col-md-5">
                     <img src="{{ book.image_source }}" alt="" class="featurette-image image-responsive">
                 </div>
-                 <div class="col-md-7">
-                    <h3>{{ loop.index }}. {{ book.name }}</h3>
+                <div class="col-md-7">
+                    <h3><a href="/books/{{ book.url }}">{{ loop.index }}. {{ book.name }}</a></h3>
                     <p>{{ book.description }}</p>
                 </div>
 
