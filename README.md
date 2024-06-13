@@ -1,114 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Betsy's Book Reviews
 
-Welcome georgina phipps,
+[View live website here](https://betsys-book-reviews-c2c175f83d73.herokuapp.com/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive](https://github.com/georginaphipps/flask-book-app/blob/main/Responsive.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+## User Experience (UX)
 
-## Gitpod Reminders
+### First Time Visitor Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Visitor - To read the latest book reviews
+Store manager - To record sales data
 
-`python3 -m http.server`
+### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+Visitor - To read latest book reviews and sign up to newsletter
+Store manager - To record sales data and plan ahead
 
-Another blue button should appear to click: _Open Browser_.
+### Flowchart - Data Automation
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+![Flowwchart](https://github.com/georginaphipps/flask-book-app/blob/main/Flowchart.png)
 
-A blue button should appear to click: _Make Public_,
+### Languages Used
 
-Another blue button should appear to click: _Open Browser_.
+HTML5
+CSS
+JS
+Python
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Frameworks, Libraries and Programs Used
 
-To log into the Heroku toolbelt CLI:
+[Google Sheets](https://docs.google.com/spreadsheets/d/1owV9hSD32LJzZ6ob_x91f73h2rEcOfgaIy5o4IusnF4/edit?usp=drive_link) - Database
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Canva](https://www.canva.com/) - Flowchart
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-------
+[Git]( https://git-scm.com/) - Version control
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[GitHub](https://github.com/) - To store files and push the website live
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+[GitPod](https://gitpod.io/) - CDE
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Google Fonts](https://fonts.google.com/) - For all fonts used on the website
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+[Google for Developers](https://developers.google.com/) - To test amends on the website before committing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+[Imgur](https://imgur.com/gallery/bookshelf-NWUo0qB)) For the header image
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[VSCode](https://code.visualstudio.com/) - Editor
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Validation - W3c Markup Validator used to validate all pages and ensure no errors in the code.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[HTML Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbetsys-book-reviews-c2c175f83d73.herokuapp.com%2F)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fshowsource%3Dyes%26doc%3Dhttps%253A%252F%252Fbetsys-book-reviews-c2c175f83d73.herokuapp.com%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[JS Results](https://github.com/georginaphipps/flask-book-app/blob/main/JS%20test.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Known Bugs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+None
 
-------
+## Deployment
 
-## FAQ about the uptime script
+This project was deployed from Gitpod to Heroku. Heroku is a cloud platform that allows developers to run and operate applications in the cloud.
 
-**Why have you added this script?**
+To deploy the site using Heroku:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Login (or signup) to Heroku.
+From the dashboard, create a new app by selecting "New" -> "Create new app."
+Give your app a name (must be unique) and select the region closest to your location.
+Once the app is created, connect your app to your GitHub repository:
+Go to the "Deploy" tab in your Heroku dashboard.
+Select "GitHub" as the deployment method.
+Connect to GitHub by entering your GitHub account credentials.
+Search for the repository name and click "Connect".
+Configure environment variables under "Settings" -> "Reveal Config Vars". Set keys like SECRET_KEY, DATABASE_URL, etc.
+Go back to the "Deploy" tab and scroll down to "Manual deploy".
+Choose the branch you want to deploy (usually "main" or "master").
+Click "Deploy Branch".
+After deployment, Heroku will give you a URL to access your deployed application.
+Click on "Open app" in the top right of the dashboard to view your deployed site.
 
-**How will this affect me?**
+## Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+[Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Code
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+[Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
 
-**So….?**
+### Educational websites
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+[SheCodes.io](SheCodes.io)
 
-**Can I opt out?**
+[CodeInstitute](https://learn.codeinstitute.net/dashboard)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+[ChatGPT](https://chat.openai.com/) - For website text content purposes only
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
